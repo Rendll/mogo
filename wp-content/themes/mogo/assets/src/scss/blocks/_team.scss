@@ -1,0 +1,13 @@
+@import "../components/social-bar";
+
+.team {
+  margin-bottom: 110px;
+}
+
+.team__btn {
+  text-align: center;
+  padding-top: 60px;
+  @include _768 {
+    padding-top: 40px;
+  }
+}

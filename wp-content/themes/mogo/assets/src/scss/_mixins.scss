@@ -1,0 +1,64 @@
+/*==========  Desktop First  ==========*/
+
+@mixin _1600 {
+  @media all and (max-width: 1600px) {
+    @content;
+  }
+}
+
+@mixin _1440 {
+  @media all and (max-width: 1440px) {
+    @content;
+  }
+}
+
+@mixin _1230 {
+  @media all and (max-width: 1230px) {
+    @content;
+  }
+}
+
+@mixin _992 {
+  @media all and (max-width: 992px) {
+    @content;
+  }
+}
+
+@mixin _768 {
+  @media all and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin _576 {
+  @media all and (max-width: 576px) {
+    @content;
+  }
+}
+
+
+/*==========  Mobile First  ==========*/
+
+@mixin _mw1230 {
+  @media all and (min-width: 1230px) {
+    @content;
+  }
+}
+
+@mixin _mw992 {
+  @media all and (min-width: 992px) {
+    @content;
+  }
+}
+
+@mixin _mw768 {
+  @media all and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin _mw576 {
+  @media all and (min-width: 576px) {
+    @content;
+  }
+}

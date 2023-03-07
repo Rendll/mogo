@@ -1,0 +1,11 @@
+#ignore idea folder
+.idea/
+
+# ignore node dependency directories
+node_modules/
+
+# ignore log files and databases
+*.log
+
+#ignore wp-config files
+wp-config.php

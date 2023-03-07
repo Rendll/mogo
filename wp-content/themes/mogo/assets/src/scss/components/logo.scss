@@ -1,0 +1,36 @@
+.logo {
+  max-width: 250px;
+  @include _768 {
+    max-width: 150px;
+  }
+}
+.logo__text {
+  display: block;
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+.logo__img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.logo__text--white {
+  color: $main-color-white;
+}
+
+.logo__text--grey {
+  color: #cccccc;
+}
+
+.logo__text--small {
+  font-size: 30px;
+}
+
+.logo__text--medium {
+  font-size: 46px;
+  @include _768 {
+    font-size: 36px;
+  }
+}

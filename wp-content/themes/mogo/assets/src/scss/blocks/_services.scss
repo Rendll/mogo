@@ -1,0 +1,39 @@
+.services {
+  margin-bottom: 120px;
+  @include _768() {
+    margin-bottom: 60px;
+  }
+}
+
+.services__item {
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.services__item-icon {
+  padding-left: 30px;
+  padding-right: 30px;
+  @include _768 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+.services__item-title {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: $heading-text-color;
+  line-height: 100%;
+  margin-bottom: 15px;
+}
+
+.services__item-description {
+  font-family: Roboto;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: $main-text-color;
+}

@@ -1,0 +1,81 @@
+.quote {
+  margin-bottom: 100px;
+}
+
+.quote-slider {
+  padding: 70px 25px;
+}
+
+.quote-slider__item {
+  padding: 0 75px;
+  @include _992 {
+    padding: 0 36px;
+  }
+}
+
+.quote-slider__wrapper {
+  display: flex;
+  align-items: center;
+  @include _768 {
+    flex-direction: column;
+  }
+}
+
+.quote-slider__img {
+  max-width: 210px;
+  width: 100%;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  @include _768 {
+    margin: 0 auto 30px;
+  }
+}
+
+.quote-slider__content {
+  margin-left: 60px;
+  @include _992 {
+    margin-left: 40px;
+  }
+  @include _768 {
+    margin: 0;
+  }
+}
+
+.quote-slider__text {
+  font-family: "Roboto";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 24px;
+  color: $main-text-color;
+
+  @include _992 {
+    font-size: 18px;
+  }
+}
+
+.quote-slider__author {
+  color: $heading-text-color;
+  font-family: "KaushanScript";
+  font-size: 24px;
+  font-weight: 400;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background-color: $background-color-coral;
+    margin-right: 10px;
+    vertical-align: middle;
+  }
+
+  @include _992 {
+    font-size: 18px;
+  }
+}

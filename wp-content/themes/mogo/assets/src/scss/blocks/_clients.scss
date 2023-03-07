@@ -1,0 +1,62 @@
+.clients {
+  position: relative;
+  margin-bottom: 110px;
+}
+
+.clients__wrapper {
+  padding-top: 110px;
+  padding-bottom: 130px;
+  background: linear-gradient(to right, rgba(255,255,255,0.85), rgba(255,255,255,0.85)), url("../images/content/mountains.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.client-card {
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.client-card__content {
+  padding-left: 30px;
+  padding-right: 25px;
+
+  @include _768 {
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+}
+
+.client-card__name {
+  color: $heading-text-color;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 24px;
+}
+
+.client-card__position {
+  position: relative;
+  color: $heading-text-color;
+  font-family: "Roboto";
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 24px;
+
+  &:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $background-color-coral;
+    margin-top: 15px;
+  }
+}
+
+.client-card__text {
+  padding-top: 24px;
+  color: $main-text-color;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+}

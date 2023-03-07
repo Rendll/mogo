@@ -1,0 +1,29 @@
+.btn-svg {
+  display: flex;
+  padding: 2px;
+  margin: 0;
+  border: transparent;
+}
+
+.btn-default {
+  border: transparent;
+  border-radius: 0;
+  height: 40px;
+  padding: 0 34px;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 40px;
+  text-transform: uppercase;
+  transition: background .2s linear;
+}
+
+.btn-load-more {
+  background-color: #eb8b8d;
+
+  &:hover {
+    color: $main-color-white;
+    background-color: #ef3c3f;
+  }
+}

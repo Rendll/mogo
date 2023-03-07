@@ -1,0 +1,44 @@
+.devices {
+  position: relative;
+  background-image: url("../images/content/nature-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+
+  &:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.devices__images {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.devices__tablet {
+  max-width: 477px;
+}
+
+.devices__phone {
+  position: absolute;
+  bottom: -55px;
+  right: 0;
+  z-index: 1;
+  max-width: 265px;
+}
+
+.devices--heading {
+  padding-top: 110px;
+}

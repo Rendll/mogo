@@ -1,0 +1,41 @@
+.google-map {
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url(../images/content/map-bg.jpg) center no-repeat;
+  background-size: cover;
+  padding-top: 57px;
+  padding-bottom: 57px;
+}
+
+.google-map__content {
+  &:before {
+    content: "";
+    display: block;
+    background-image: url("../images/pin.svg");
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 26px;
+    margin: 0 auto 18px;
+  }
+
+  &:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: $background-color-coral;
+    margin: 21px auto 0;
+  }
+}
+
+.google-map__link {
+  color: $background-color-coral;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    color: #ef3c3f;
+    text-decoration: none;
+  }
+}

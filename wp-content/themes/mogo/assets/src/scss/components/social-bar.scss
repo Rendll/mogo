@@ -1,0 +1,22 @@
+.social-bar {
+  display: flex;
+}
+
+.social-bar__link {
+  width: 56px;
+  height: 56px;
+  padding: 14px;
+  background-color: #fce38a;
+
+  &:not(:last-child) {
+    border-right: 1px solid rgba(243, 129, 129, 0.5);
+  }
+
+  &:hover {
+    background-color: $background-color-coral;
+
+    img {
+      filter: brightness(0) invert(1);
+    }
+  }
+}
